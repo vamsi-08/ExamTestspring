@@ -14,5 +14,8 @@ public class App
     	System.out.println(clg);
     	Employee e=context.getBean(Employee.class);
     	System.out.println(e);
+        ApplicationContext c1=new AnnotationConfigApplicationContext(configur.class);
+    	School sc=c1.getBean(School.class);
+    	System.out.println(sc);
     } 
 }
