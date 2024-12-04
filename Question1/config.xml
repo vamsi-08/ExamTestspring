@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xmlns:context="http://www.springframework.org/schema/context" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:tx="http://www.springframework.org/schema/tx" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd 
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context.xsd 
+http://www.springframework.org/schema/tx 
+http://www.springframework.org/schema/tx/spring-tx.xsd">
+<bean id="1020" class="Chipl.Eclipsespring.Students">
+<property name="sname" value="vamsi"/>
+<property name="section" value="A"/>
+<property name="marks" value="100"/>
+<property name="clgname" value="SRKR"/>
+</bean>
+<bean id="111" class="Chipl.Eclipsespring.Employee">
+<constructor-arg  index="0" value="101"/>
+<constructor-arg  index="1" value="sudheer"/>
+<constructor-arg  index="2" value="IT"/>
+<constructor-arg  index="3" value="100000"/>
+</bean>
+</beans>
